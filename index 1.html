@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<div class="container">
+    <h1>Mẫu Đăng Ký HTML</h1>
+    <form name="registration" class="registartion-form" onsubmit="return formValidation()">
+      <table>
+        <tr>
+          <td><label for="Tên">Tên:</label></td>
+          <td><input type="text" name="Tên" id="Tên" placeholder=""></td>Họ và Tên của bạn
+        </tr>
+        <tr>
+          <td><label for="email">Email:</label></td>
+          <td><input type="text" name="email" id="email" placeholder="email của bạn"></td>
+        </tr>
+        <tr>
+          <td><label for="Mật Khẩu">Mật Khẩu:</label></td>
+          <td><input type="Mật Khẩu" name="Mật Khẩu" id="Mật Khẩu"></td>
+        </tr>
+        <tr>
+          <td><label for="Số Điện Thoại">Số Điện thoại:</label></td>
+          <td><input type="Number" name="Số Điện Thoại" id="Số Điện Thoại"></td>
+        </tr>
+        <tr>
+          <td><label for="giới tính">giới tính</label></td>
+          <td>Nam: <input type="radio" name="giới tính" value="Nam">
+            Nữ: <input type="radio" name="giới tính" value="Nữ">
+            giới tính khác: <input type="radio" name="giới tính" value="giới tính khác"></td>
+        </tr>
+        <tr>
+          <td><label for="Ngôn Ngữ">Ngôn Ngữ</label></td>
+          <td>
+            <select name="Ngôn Ngữ" id="ngôn ngữ">
+              <option value="">Chọn Ngôn ngữ</option>
+              <option value="English">English</option>
+              <option value="Spanish">Spanish</option>
+              <option value="Vietnamese">Vietnamese</option>
+              <option value="Arabic">Arabic</option>
+              <option value="Russian">Russian</option>
+            </select>
+          </td>
+        </tr>   
+        <tr>
+          <td><label for="zipcode">Mã số thuế:</label></td>
+          <td><input type="number" name="zipcode" id="zipcode"></td>
+        </tr>
+        <tr>
+          <td><label for="about">giới thiệu về bạn:</label></td>
+          <td><textarea name="about" id="about" placeholder="một số giới thiệu về bạn"></textarea></td>
+        </tr>
+        <tr>
+          <td colspan="2"><input type="submit" class="submit" value="Đăng ký" /></td>
+        </tr>
+      </table>
+    </form>
+  </div>
